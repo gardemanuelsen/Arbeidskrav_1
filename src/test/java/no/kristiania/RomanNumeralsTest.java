@@ -8,27 +8,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class RomanNumeralsTest {
 
-   @Test
-   public void shouldConvertToOne(){
-       assertEquals("I", RomanNumeralsTest.intToRoman(1));
-   }
-
-    @Test
-    public void shouldConvertToTen(){
-        assertEquals("X", RomanNumeralsTest.intToRoman(10));
-    }
-
-    @Test
-    public void shouldConvertToHundred(){
-       assertEquals("C", RomanNumeralsTest.intToRoman(100) );
-
-    }
-
-    @Test
-    public void shouldConvertToThousand(){
-       assertEquals("CC", RomanNumeralsTest.intToRoman(1000));
-    }
-
+  @Test
+  public void shouldConvertToOne(){
+      assertEquals("I", RomanNumeralsTest.intToRoman(10));
+  }
 
 
 
