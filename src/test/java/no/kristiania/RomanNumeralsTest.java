@@ -15,8 +15,14 @@ public class RomanNumeralsTest {
 
     @Test
     public void shouldConvertToTen(){
-        assertEquals("X", RomanNumeralsTest.intToRoman(100));
+        assertEquals("X", RomanNumeralsTest.intToRoman(10));
     }
+
+    @Test
+    public void shouldConvertToHundred(){
+      assertEquals("C", RomanNumeralsTest.intToRoman(1000));
+    }
+
 
 
 
