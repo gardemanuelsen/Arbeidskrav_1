@@ -25,7 +25,7 @@ public class RomanNumeralsTest {
 
     @Test
     public void shouldConvertToThousands(){
-        assertEquals("M", RomanNumeralsTest.intToRoman(10000));
+        assertEquals("M", RomanNumeralsTest.intToRoman(1000));
     }
 
 
