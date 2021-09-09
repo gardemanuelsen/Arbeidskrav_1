@@ -8,10 +8,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class RomanNumeralsTest {
 
-@Test
-public void shouldConvertToOne(){
-    assertEquals("I", RomanNumeralsTest.intToRoman(10));
-}
+    @Test
+    public void shouldConvertToOne(){
+        assertEquals("I", RomanNumeralsTest.intToRoman(1));
+    }
+
+    @Test
+    public void shouldConvertToTen(){
+        assertEquals("X", RomanNumeralsTest.intToRoman(100));
+    }
 
 
 
