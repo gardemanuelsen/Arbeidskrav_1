@@ -20,9 +20,13 @@ public class RomanNumeralsTest {
 
     @Test
     public void shouldConvertToHundred(){
-      assertEquals("C", RomanNumeralsTest.intToRoman(1000));
+      assertEquals("C", RomanNumeralsTest.intToRoman(100));
     }
 
+    @Test
+    public void shouldConvertToThousands(){
+        assertEquals("M", RomanNumeralsTest.intToRoman(10000));
+    }
 
 
 
