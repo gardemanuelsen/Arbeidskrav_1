@@ -13,6 +13,12 @@ public class RomanNumeralsTest {
         assertEquals("I", RomanNumeralsTest.intToRoman(1));
     }
 
+    @Test
+    void shouldConvertToOne() {
+        assertEquals("II", RomanNumeralsTest.intToRoman(2));
+    }
+
+
     public static String intToRoman(int num) {
         String[] thousands = new String[]{"", "M", "MM", "MMM"};
         String[] hundreds = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
