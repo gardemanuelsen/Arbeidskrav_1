@@ -14,7 +14,7 @@ public class RomanNumeralsTest {
     }
 
     @Test
-    void shouldConvertToOne() {
+    void shouldConvertToTwo() {
         assertEquals("II", RomanNumeralsTest.intToRoman(2));
     }
 
