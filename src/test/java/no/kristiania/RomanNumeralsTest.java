@@ -18,6 +18,11 @@ public class RomanNumeralsTest {
         assertEquals("II", RomanNumeralsTest.intToRoman(2));
     }
 
+    @Test
+    void shouldConvertToTen() {
+        assertEquals("X", RomanNumeralsTest.intToRoman(10));
+    }
+
 
     public static String intToRoman(int num) {
         String[] thousands = new String[]{"", "M", "MM", "MMM"};
