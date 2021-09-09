@@ -10,7 +10,7 @@ public class RomanNumeralsTest {
 
     @Test
     public void shouldConvertToOne(){
-        assertEquals("II", RomanNumeralsTest.intToRoman(1));
+        assertEquals("I", RomanNumeralsTest.intToRoman(1));
     }
 
 
