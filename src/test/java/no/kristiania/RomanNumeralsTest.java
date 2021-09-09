@@ -13,6 +13,11 @@ public class RomanNumeralsTest {
         assertEquals("I", RomanNumeralsTest.intToRoman(1));
     }
 
+    @Test
+    public void shouldConvertToTen(){
+        assertEquals("X", RomanNumeralsTest.intToRoman(10));
+    }
+
 
 
     public static String intToRoman(int num) {
