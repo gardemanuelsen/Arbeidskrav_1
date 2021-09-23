@@ -2,7 +2,7 @@ package no.kristiania;
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
 
     public static String intToRoman(int number) {
         String[] thousands = new String[]{"", "M", "MM", "MMM"};
@@ -14,6 +14,7 @@ public class main {
                 tens[(number % 100) / 10] +
                 units[number % 10];
     }
+
 
     public static void main(String[] args) {
         Scanner readData = new Scanner(System.in);
