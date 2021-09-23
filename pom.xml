@@ -23,8 +23,8 @@
     </dependencies>
 
     <build>
-        <testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
-        <sourceDirectory>${project.basedir}/src/main/</sourceDirectory>
+        <testSourceDirectory>src/Test/java</testSourceDirectory>
+        <sourceDirectory>src/Main/</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
