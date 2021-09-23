@@ -2,7 +2,7 @@ package no.kristiania;
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
 
     public static String intToRoman(int number) {
         String[] thousands = new String[]{"", "M", "MM", "MMM"};
